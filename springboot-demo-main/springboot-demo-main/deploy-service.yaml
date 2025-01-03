@@ -30,6 +30,6 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 8080
+      targetPort: 30000
       #odePort: 30000  # Optional: Specify a port between 30000-32767
-  type: LoadBalancer
+  type: NodePort
